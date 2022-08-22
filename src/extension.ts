@@ -1,12 +1,27 @@
 import * as vscode from 'vscode';
+import { search } from './utils/search';
 
 export function activate(context: vscode.ExtensionContext) {
-	let disposable = vscode.commands.registerCommand('extension-translate.helloWorld', () => {
-		vscode.window.showInformationMessage('Hello World from extension-translate!');
+	let disposable = vscode.commands.registerCommand('extension-translate.traduzir', () => {
+		const quickPick = vscode.window.createQuickPick();
+		quickPick.title = 'Insira o texto a ser traduzido:';
+
+		quickPick.onDidAccept(() => {
+			const editor = vscode.window.activeTextEditor;
+
+			if (editor !== undefined) {
+				quickPick.value = editor.document.getText(editor.selection);
+			}
+
+			search(quickPick.value);
+		});
+
+		quickPick.onDidHide(() => quickPick.dispose());
+
+		quickPick.show();
 	});
 
 	context.subscriptions.push(disposable);
 }
 
-// this method is called when your extension is deactivated
-export function deactivate() {}
+export function deactivate() { }
