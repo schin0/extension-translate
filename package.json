@@ -2,7 +2,7 @@
   "name": "extension-translate",
   "displayName": "Extension translate",
   "description": "Extensão que ajuda na tradução do dia a dia para idiomas diferentes",
-  "icon": "./src/assets/img/logo.png",
+  "icon": "assets/img/logo.png",
   "version": "1.0.0",
   "publisher": "GabrielSchincariol",
   "author": {
