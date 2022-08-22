@@ -1,28 +1,40 @@
 {
   "name": "extension-translate",
-  "displayName": "extension-translate",
+  "displayName": "Extension translate",
   "description": "Extensão que ajuda na tradução do dia a dia para idiomas diferentes",
+  "icon": "./src/assets/img/logo.png",
   "version": "1.0.0",
   "publisher": "GabrielSchincariol",
-	"author": {
-		"name": "Gabriel Schincariol",
-		"email": "gabrielschincariol@outlook.com"
-	},
+  "author": {
+    "name": "Gabriel Schincariol",
+    "email": "gabrielschincariol@outlook.com"
+  },
   "engines": {
-    "vscode": "^1.70.0"
+    "vscode": "^1.70.2"
   },
   "categories": [
     "Other"
   ],
+  "license": "MIT",
+  "homepage": "https://github.com/schin0/extension-translate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schin0/extension-translate.git"
+  },
+  "keywords": [
+    "translate",
+    "translate for",
+    "extension for translate"
+  ],
   "activationEvents": [
-    "onCommand:extension-translate.helloWorld"
+    "onCommand:extension-translate.traduzir"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "extension-translate.helloWorld",
-        "title": "Hello World"
+        "command": "extension-translate.traduzir",
+        "title": "Traduzir"
       }
     ]
   },
@@ -35,7 +47,7 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.70.0",
+    "@types/vscode": "^1.70.2",
     "@types/glob": "^7.2.0",
     "@types/mocha": "^9.1.1",
     "@types/node": "16.x",
