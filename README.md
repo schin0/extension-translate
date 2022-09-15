@@ -8,7 +8,7 @@ Olá! Fiz essa extensão para me ajudar com as traduções de textos no trabalho
 Para realizar o download da extensão, basta procurar pelo seguinte ícone em seu Visual Studio Code e digitar o texto:
 > GabrielSchincariol.extension-translate
 
-![enter image description here](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a94ce7b2-c4bc-45db-ba9e-a2795efbc82a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45/20220822/us-west-2/s3/aws4_request&X-Amz-Date=20220822T233127Z&X-Amz-Expires=86400&X-Amz-Signature=28b359aa6bb8e0922f96dd59e3454d25a8b141c7d6f0ca8cedd5b9327af6083d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20=%22Untitled.png%22&x-id=GetObject)
+![Extensão](https://imgur.com/SdU0Zd7)
 
 Depois de instalar, basta pressionar **Ctrl** + **Shift** + **P** e começar a digitar "Traduzir":
 ![enter image description here](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/daba7ea8-8c59-4d79-916f-eb94cd9fc38f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45/20220822/us-west-2/s3/aws4_request&X-Amz-Date=20220822T233509Z&X-Amz-Expires=86400&X-Amz-Signature=73d97dc6f0d7d668e738b171721302f4054ab5a5cf24c39f867d60aff7677b46&X-Amz-SignedHeaders=host&response-content-disposition=filename%20=%22Untitled.png%22&x-id=GetObject)
